@@ -1,39 +1,45 @@
-@import url(//styles/reset-styles.css);
-
+@import url(reset-styles.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);
+body{
+    background-color: rgb(199, 195, 195);
+}
+.container {
+    box-shadow:0 0 7px grey;
+    padding: 13px 0px 11px 0px;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
 .container div {
-    display: inline;
+    display:inline;
 
 }
-.menu-container div {
-    padding: 20px 50px;
-    /* border: red 1px solid; */
+.menu {
+    padding: 19px 50px;
     font-size: 20px;
-
-
-}
-.menu-container {
-    margin-left: 1000px;
-}
-a {
+    border-right: 1px solid rgb(197, 189, 189);
     cursor: pointer;
     color: black;
+       
+    }
+a {
+    color: black;
     text-decoration: none;
-    font: bold;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+   
 } 
 
 
-.menu-container div:hover {
+.menu:hover {
     background-color: rgb(223, 222, 222);
+    transition: 1s;
+    color: cadetblue;
+    
 }
 .title {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    vertical-align: 10px;
-}
-.container {
-    box-shadow:0 0 243px black;
-    margin: -12px -1px;
-    padding: 0px 0px 20px 0px;
+    float: left;
 }
